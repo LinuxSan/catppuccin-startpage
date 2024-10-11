@@ -23,16 +23,21 @@ const default_config = {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
+              name: "/r/HipHopHeads",
+              url: "https://www.reddit.com/r/hiphopheads/",
               icon: "droplet-bolt",
               icon_color: palette.green,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
+              name: "/Youtube/",
+              url: "https://www.youtube.com/index?hl=en&persist_gl=1&gl=US",
               icon: "binary-tree",
               icon_color: palette.peach,
+            },
+            {
+              name: "/EB/",
+              url: "http://ekstrabladet.dk/",
+              icon: "book"
             },
           ],
         },
@@ -40,8 +45,8 @@ const default_config = {
           name: "workspace",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com",
+              name: "/Campus/",
+              url: "https://campus.aams.dk/login/index.php",
               icon: "brand-gmail",
               icon_color: palette.green,
             },
@@ -58,8 +63,8 @@ const default_config = {
               icon_color: palette.red,
             },
             {
-              name: "drive",
-              url: "https://drive.google.com/drive/home",
+              name: "/OneDrive/",
+              url: "https://aamste-my.sharepoint.com/",
               icon: "brand-google-drive",
               icon_color: palette.blue,
             },
@@ -69,26 +74,26 @@ const default_config = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
+              name: "/Gizmodo/",
+              url: "http://blog.gizmodo.com/",
               icon: "news",
               icon_color: palette.green,
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
+              name: "/LifeHacker/",
+              url: "http://blog.lifehacker.com/",
               icon: "badge-filled",
               icon_color: palette.peach,
             },
             {
-              name: "куток",
-              url: "https://kutok.io",
+              name: "/Newz/",
+              url: "http://newz.dk/",
               icon: "border-radius",
               icon_color: palette.red,
             },
             {
-              name: "ґрунт",
-              url: "https://grnt.media",
+              name: "/ComputerWorld/",
+              url: "https://www.computerworld.dk/",
               icon: "eye-bolt",
               icon_color: palette.blue,
             },
