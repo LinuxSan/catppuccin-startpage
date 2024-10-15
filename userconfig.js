@@ -98,8 +98,8 @@ const default_config = {
               icon_color: palette.blue,
             },
             {
-              name: "village",
-              url: "https://www.village.com.ua",
+              name: "PSA",
+              url: "https://psa.wf/",
               icon: "home-2",
               icon_color: palette.mauve,
             },
