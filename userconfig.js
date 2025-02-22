@@ -1,5 +1,5 @@
 // latte / frappe / macchiato / mocha
-const palette = macchiato;
+const palette = latte;
 
 const default_config = {
   overrideStorage: true,
@@ -9,7 +9,7 @@ const default_config = {
   },
   clock: {
     format: "h:mm",
-    iconColor: latte.maroon,
+    iconColor: palette.maroon,
   },
   disabled: [],
   fastlink: "https://app.raindrop.io",
