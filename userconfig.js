@@ -75,7 +75,7 @@ const default_config = {
           links: [
             {
               name: "/Gizmodo/",
-              url: "http://blog.gizmodo.com/",
+              url: "http://gizmodo.com/",
               icon: "news",
               icon_color: palette.green,
             },
