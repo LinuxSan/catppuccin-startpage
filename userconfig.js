@@ -17,7 +17,7 @@ const default_config = {
   tabs: [
     {
       name: "myself",
-      background_url: "src/img/banners/cbg-09.gif",
+      background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
           name: "bookmarks",
@@ -109,10 +109,10 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-07.gif",
+      background_url: "src/img/banners/cbg-8.gif",
       categories: [
         {
-          name: "development",
+          name: "resources",
           links: [
             {
               name: "github",
@@ -127,9 +127,9 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
+              name: "wakatime",
+              url: "https://wakatime.com",
+              icon: "24-hours",
               icon_color: palette.red,
             },
           ],
@@ -156,15 +156,15 @@ const default_config = {
               icon_color: palette.red,
             },
             {
-              name: "aoc",
-              url: "https://adventofcode.com",
-              icon: "brand-linktree",
+              name: "stackoverflow",
+              url: "https://stackoverflow.com",
+              icon: "brand-stackoverflow",
               icon_color: palette.blue,
             },
           ],
         },
         {
-          name: "resources",
+          name: "blogs",
           links: [
             {
               name: "dou",
@@ -179,15 +179,15 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
+              name: "uber research",
+              url: "https://eng.uber.com/category/articles",
               icon: "brand-uber",
               icon_color: palette.red,
             },
             {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
+              name: "google research",
+              url: "https://blog.research.google",
+              icon: "hexagon-letter-g",
               icon_color: palette.blue,
             },
           ],
@@ -196,10 +196,10 @@ const default_config = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/cbg-08.gif",
+      background_url: "src/img/banners/cbg-10.gif",
       categories: [
         {
-          name: "social media",
+          name: "social medias",
           links: [
             {
               name: "telegram",
@@ -222,7 +222,7 @@ const default_config = {
           ],
         },
         {
-          name: "gaming",
+          name: "games",
           links: [
             {
               name: "IGN",
