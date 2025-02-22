@@ -25,19 +25,20 @@ const default_config = {
             {
               name: "/r/HipHopHeads",
               url: "https://www.reddit.com/r/hiphopheads/",
-              icon: "droplet-bolt",
+              icon: "vinyl",
               icon_color: palette.green,
             },
             {
               name: "/Youtube/",
               url: "https://www.youtube.com/index?hl=en&persist_gl=1&gl=US",
-              icon: "binary-tree",
-              icon_color: palette.peach,
+              icon: "brand-youtube",
+              icon_color: palette.red,
             },
             {
               name: "/EB/",
               url: "http://ekstrabladet.dk/",
-              icon: "book"
+              icon: "news",
+              icon_color: palette.yellow,
             },
           ],
         },
@@ -47,7 +48,7 @@ const default_config = {
             {
               name: "/Campus/",
               url: "https://campus.aams.dk/login/index.php",
-              icon: "brand-gmail",
+              icon: "school",
               icon_color: palette.green,
             },
             {
@@ -65,7 +66,7 @@ const default_config = {
             {
               name: "/OneDrive/",
               url: "https://aamste-my.sharepoint.com/",
-              icon: "brand-google-drive",
+              icon: "brand-onedrive",
               icon_color: palette.blue,
             },
           ],
@@ -100,7 +101,7 @@ const default_config = {
             {
               name: "PSA",
               url: "https://psa.wf/",
-              icon: "home-2",
+              icon: "sailboat-2",
               icon_color: palette.mauve,
             },
           ],
