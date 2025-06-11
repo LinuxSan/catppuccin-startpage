@@ -15,14 +15,14 @@ const default_configuration = {
   },
   clock: {
     label: "DK",
-    timezone: "Europe/Copenhagan",
+    timezone: "Europe/Copenhagen",
     format: "h:i",
     icon_color: palette.maroon,
   },
   additionalClocks: [
     {
       label: "DK",
-      timezone: "Europe/Copenhagan",
+      timezone: "Europe/Copenhagen",
       format: "h:i",
       icon_color: palette.peach,
     },
