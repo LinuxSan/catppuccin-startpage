@@ -15,6 +15,7 @@ const default_configuration = {
   },
   clock: {
     format: "h:i",
+    locale: "dk",
     icon_color: palette.maroon,
   },
     search: {
