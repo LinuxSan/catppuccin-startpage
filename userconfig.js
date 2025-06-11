@@ -18,6 +18,16 @@ const default_configuration = {
     timezone: "Europe/Risskov",
     icon_color: palette.maroon,
   },
+    search: {
+    engines: {
+      p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
+      d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
+      g: ["https://google.com/search?q=", "Google"],
+    },
+  },
+  keybindings: {
+    "s": "search-bar",
+  },
   disabled: [],
   localIcons: true,
   localFonts: true,
