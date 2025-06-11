@@ -36,7 +36,7 @@ const default_configuration = {
   tabs: [
     {
       name: "myself",
-      background_url: "src/img/banners/cbg-9.gif",
+      background_url: "src/img/banners/banner_09.gif",
       categories: [
         {
           name: "bookmarks",
@@ -129,7 +129,7 @@ const default_configuration = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-8.gif",
+      background_url: "src/img/banners/banner_7.gif",
       categories: [
         {
           name: "resources",
@@ -216,7 +216,7 @@ const default_configuration = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/cbg-10.gif",
+      background_url: "src/img/banners/banner_08.gif",
       categories: [
         {
           name: "social medias",
