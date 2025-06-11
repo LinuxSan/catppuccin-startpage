@@ -17,7 +17,7 @@ const default_configuration = {
     label: "DK",
     timezone: "Europe/Copenhagen",
     locale: "da-DK",
-    format: "h:i",
+    format: "A",
     icon_color: palette.maroon,
   },
   additionalClocks: [
