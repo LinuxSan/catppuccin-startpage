@@ -2,7 +2,7 @@
 
 // Define preferred palette for light and dark mode
 // Available themes: latte, frappe, mocha, macchiato
-const preferredLightTheme = latte;
+const preferredLightTheme = latteClear;
 const preferredDarkTheme = mocha;
 
 let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
@@ -10,55 +10,44 @@ let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Århus",
     scale: "C",
   },
   clock: {
-    format: "k:i p",
+    format: "h:i",
+    timezone: "Europe/Risskov",
     icon_color: palette.maroon,
-  },
-  additionalClocks: [
-    {
-      label: "UA",
-      timezone: "Europe/Kyiv",
-      format: "h:i",
-      icon_color: palette.peach,
-    },
-  ],
-  search: {
-    engines: {
-      p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
-      d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
-      g: ["https://google.com/search?q=", "Google"],
-    },
-  },
-  keybindings: {
-    "s": "search-bar",
   },
   disabled: [],
   localIcons: true,
   localFonts: true,
-  fastlink: "https://www.perplexity.ai",
+  fastlink: "https://app.raindrop.io",
   openLastVisitedTab: true,
   tabs: [
     {
       name: "myself",
-      background_url: "src/img/banners/banner_09.gif",
+      background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "/r/HipHopHeads",
+              url: "https://www.reddit.com/r/hiphopheads/",
+              icon: "vinyl",
               icon_color: palette.green,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
+              name: "/Youtube/",
+              url: "https://www.youtube.com/index?hl=en&persist_gl=1&gl=US",
+              icon: "brand-youtube",
+              icon_color: palette.red,
+            },
+            {
+              name: "/EB/",
+              url: "http://ekstrabladet.dk/",
+              icon: "news",
+              icon_color: palette.yellow,
             },
           ],
         },
@@ -66,9 +55,9 @@ const default_configuration = {
           name: "workspace",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com",
-              icon: "brand-gmail",
+              name: "/Campus/",
+              url: "https://campus.aams.dk/login/index.php",
+              icon: "school",
               icon_color: palette.green,
             },
             {
@@ -84,9 +73,9 @@ const default_configuration = {
               icon_color: palette.red,
             },
             {
-              name: "drive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
+              name: "/OneDrive/",
+              url: "https://aamste-my.sharepoint.com/",
+              icon: "brand-onedrive",
               icon_color: palette.blue,
             },
           ],
@@ -95,33 +84,33 @@ const default_configuration = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
+              name: "/Gizmodo/",
+              url: "http://gizmodo.com/",
               icon: "news",
               icon_color: palette.green,
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
+              name: "/LifeHacker/",
+              url: "http://blog.lifehacker.com/",
               icon: "badge-filled",
               icon_color: palette.peach,
             },
             {
-              name: "куток",
-              url: "https://kutok.io",
+              name: "/Newz/",
+              url: "http://newz.dk/",
               icon: "border-radius",
               icon_color: palette.red,
             },
             {
-              name: "ґрунт",
-              url: "https://grnt.media",
+              name: "/ComputerWorld/",
+              url: "https://www.computerworld.dk/",
               icon: "eye-bolt",
               icon_color: palette.blue,
             },
             {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
+              name: "PSA",
+              url: "https://psa.wf/",
+              icon: "sailboat-2",
               icon_color: palette.mauve,
             },
           ],
@@ -130,10 +119,10 @@ const default_configuration = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/banner_07.gif",
+      background_url: "src/img/banners/cbg-8.gif",
       categories: [
         {
-          name: "development",
+          name: "resources",
           links: [
             {
               name: "github",
@@ -148,9 +137,9 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
+              name: "wakatime",
+              url: "https://wakatime.com",
+              icon: "24-hours",
               icon_color: palette.red,
             },
           ],
@@ -177,15 +166,15 @@ const default_configuration = {
               icon_color: palette.red,
             },
             {
-              name: "aoc",
-              url: "https://adventofcode.com",
-              icon: "brand-linktree",
+              name: "stackoverflow",
+              url: "https://stackoverflow.com",
+              icon: "brand-stackoverflow",
               icon_color: palette.blue,
             },
           ],
         },
         {
-          name: "resources",
+          name: "blogs",
           links: [
             {
               name: "dou",
@@ -200,15 +189,15 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
+              name: "uber research",
+              url: "https://eng.uber.com/category/articles",
               icon: "brand-uber",
               icon_color: palette.red,
             },
             {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
+              name: "google research",
+              url: "https://blog.research.google",
+              icon: "hexagon-letter-g",
               icon_color: palette.blue,
             },
           ],
@@ -217,10 +206,10 @@ const default_configuration = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/banner_08.gif",
+      background_url: "src/img/banners/cbg-10.gif",
       categories: [
         {
-          name: "social media",
+          name: "social medias",
           links: [
             {
               name: "telegram",
@@ -243,7 +232,7 @@ const default_configuration = {
           ],
         },
         {
-          name: "gaming",
+          name: "games",
           links: [
             {
               name: "IGN",
