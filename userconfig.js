@@ -14,7 +14,6 @@ const default_configuration = {
     scale: "C",
   },
   clock: {
-    none,
   },
   additionalClocks: [
     {
