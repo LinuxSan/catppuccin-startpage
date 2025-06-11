@@ -10,7 +10,7 @@ let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "Århus",
+    location: "AArhus",
     scale: "C",
   },
   clock: {
@@ -128,7 +128,7 @@ const default_configuration = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/banner_7.gif",
+      background_url: "src/img/banners/banner_07.gif",
       categories: [
         {
           name: "resources",
