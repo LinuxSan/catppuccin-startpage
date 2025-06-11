@@ -15,7 +15,7 @@ const default_configuration = {
   },
   clock: {
     format: "h:i",
-    timezone: "Europe/Risskov",
+    timezone: "Europe/Copenhagen",
     icon_color: palette.maroon,
   },
     search: {
