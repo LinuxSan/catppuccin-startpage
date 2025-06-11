@@ -10,14 +10,21 @@ let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "AArhus",
+    location: "Århus",
     scale: "C",
   },
   clock: {
-    format: "h:i",
-    locale: "dk",
+    format: "k:i p",
     icon_color: palette.maroon,
   },
+  additionalClocks: [
+    {
+      label: "UA",
+      timezone: "Europe/Kyiv",
+      format: "h:i",
+      icon_color: palette.peach,
+    },
+  ],
     search: {
     engines: {
       p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
